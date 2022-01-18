@@ -1,0 +1,35 @@
+
+@import "~bootstrap/scss/bootstrap";
+
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger
+);
+
+
+.table > :first-child {
+    border-bottom: 3px solid #8a2be2;
+}
+// tr .actions{
+//   visibility: hidden;
+// }
+// tr:hover .actions{
+//   visibility: visible;
+// }
+.tableHead{
+  background-color: blueviolet;
+  border: none;
+  outline: none;
+}
+
+.heading h2{
+  background-color: rgb(47, 202, 202);
+  width: fit-content;
+  margin: 0 auto 20px auto;
+  padding: 10px 25px;
+  color: white;
+  font-weight: 600;
+  border-radius: 20%;
+  font-size: x-large;
+}
+
